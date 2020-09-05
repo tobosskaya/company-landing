@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.solution{
+    background-image: url(./fourpeople.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.solution-content{
+
+}
+.solution-content-title{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+}
+.solution-content-description{
+    color:white;
+    font-size: 48px;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+
+}
+.my-test{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.my-test1{
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 3;
+    flex: 1;
+    height: 100px;
+    background-color: orange;
+    /* align-self: flex-end; */
+
+}
+.my-test2{
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 3;
+    height: 100px;
+    flex: 2;
+
+    background-color: yellow;
+
+}
+.my-test3{
+    flex-basis: 300px;
+    flex-grow: 1;
+    height: 100px;
+    flex-shrink: 3;
+    flex: 1;
+/*  */
+    background-color:mediumturquoise;
+
+}
