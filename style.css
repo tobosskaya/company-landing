@@ -211,7 +211,7 @@ body{
     margin-bottom: 63px;
 }
 .video__block{
-    background-image: url(./fourpeoplesquare-icon.png);
+    background-image: url('./fourpeoplesquare-icon.png');
     height: 570px;
     width: 100vw;
     background-size: cover;
@@ -228,7 +228,7 @@ body{
     text-align: center;
 }
 .video__player{
-    background-color: url(./buildings-icon.png);
+    background-image: url('./buildings-icon.png');
     width:70%;
     margin: 0 auto;
     display: flex;
@@ -250,4 +250,98 @@ body{
 .video__watch-the-video{
     color: white;
     padding-left: 20px; 
+}
+
+
+
+
+.raza{
+    display:flex;
+    order: 5;
+}
+
+/* .parent>div{
+    color: green;
+} 
+
+.test:before{
+    content:"+";
+}
+.test:after{
+    content:"-";
+}
+@keyframes layout{
+    from{
+        width: 300px;
+    }
+    to{
+        width: 900px;
+    
+    }
+}
+.test{
+    height: 300px;
+    background: cadetblue;
+    /* animation-name: layout; 
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+    transform: rotate(90deg);
+}
+.test:hover{
+    animation-play-state: paused;
+}
+/*@keyframes layout{
+    0%{
+        width: 300px;
+    }
+    56%{
+        width: 900px;
+    
+    }
+}*/
+.clock{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 20 px auto 0 auto;
+    background:yellowgreen;
+    animation-name: round;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 36px;
+}
+.minute-hand{
+    transform-origin: center;
+    margin: 200px;
+    position: absolute;
+    top: 0px;
+    width: 3px;
+    height: 180px;
+    background: grey;
+}
+.hour-hand{
+    transform-origin: center;
+    margin: 200px;
+    position: absolute;
+    height: 180px;
+    width: 5px;
+    height: 180px;
+    background: black;
+}
+
+@keyframes round{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }    
+}
+.clock{
+    position:relativ
 }
