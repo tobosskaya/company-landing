@@ -231,6 +231,7 @@ body{
     background-image: url('./buildings-icon.png');
     width:70%;
     margin: 0 auto;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,4 +345,18 @@ body{
 }
 .clock{
     position:relativ
+}
+
+a[href$="jpg"]{
+    color:green;
+}
+a[href^="http"]{
+    color: red;
+}
+a[alt="C"] hover{
+    color: orange;
+    }
+}
+[strong~="система"]{
+    font-size:9;
 }
